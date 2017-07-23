@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "621496599547",
+    "firebase_url": "https://tesing-e230c.firebaseio.com",
+    "project_id": "tesing-e230c",
+    "storage_bucket": "tesing-e230c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621496599547:android:4f9ad48b3f18c7d1",
+        "android_client_info": {
+          "package_name": "com.example.this_is_kaushal.a1920plust2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621496599547-ngjqs8k79sto4iob4mohgq5hcemm6ga7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.this_is_kaushal.a1920plust2",
+            "certificate_hash": "b0985e4757cd7e7f42e93e377308391fa0b107ef"
+          }
+        },
+        {
+          "client_id": "621496599547-ndha9bs3asc4le7bm6suof81ta10389m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4n6XXt23hnRIbN2hHs0h1qPPrV9ou9_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621496599547-ndha9bs3asc4le7bm6suof81ta10389m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

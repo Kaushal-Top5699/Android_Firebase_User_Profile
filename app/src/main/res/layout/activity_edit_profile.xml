@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Settings"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/heading"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/heading"
+        android:src="@drawable/ic_image"
+        android:scaleType="centerInside"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="Name"
+        android:layout_below="@+id/imageBtn"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailID"
+        android:hint="Email"
+        android:layout_below="@+id/username"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/emailID"
+        android:text="Done!"
+        android:textAllCaps="false"
+        android:id="@+id/btnDoneEdit"
+        android:onClick="onDone"/>
+
+</RelativeLayout>
